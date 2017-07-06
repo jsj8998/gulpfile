@@ -1,0 +1,260 @@
+body {
+    font-size: 0.12rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+.header {
+    font-size: 0.18rem;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    display:flex;
+}
+
+.header .back {
+    position: absolute;
+    left: 0.1rem;
+    color: #37bc9b;
+    font-size: 0.16rem;
+    width:.165rem;
+    height:.165rem;
+    top:.1rem;
+}
+.header h3{
+    flex:1;
+    font-size:.16rem;
+    font-weight:normal;
+}
+
+.content {
+    -webkit-flex: 1;
+    overflow-y: scroll;
+    background-color:#f8f8f8;
+}
+.search{
+    height:.36rem;
+    border-bottom:1px solid #ccc;
+    position:relative;
+    background-color:white;
+    img{
+        width:.16rem;
+        height:.16rem;
+        position:absolute;
+        top:.1rem;
+        left:.1rem;
+        z-index:1;
+    }
+    input{
+        width:98%;
+        height:.24rem;
+        position:absolute;
+        outline:none;
+        background-color:#f3f3f3;
+        border-radius:.12rem;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+        border:none;
+        text-indent:.28rem;
+    }
+}
+.doctor{
+    height:.4rem;
+    line-height:.4rem;
+    position:relative;
+    display:flex;
+    background-color:white;
+    margin-top:.1rem;
+    border-bottom:1px solid #ccc;
+    img{
+        position:absolute;
+    }
+    .xin{
+        width:.23rem;
+        height:.23rem;
+        top:.1rem;
+        left:.07rem;
+    }
+    .fanhui{
+        width:.16rem;
+        height:.16rem;
+        right:.07rem;
+        top:.12rem;
+    }
+    span{
+        flex:1;
+        text-align:center;
+        font-size:.16rem;
+    }
+    small{
+        flex:1;
+        text-align:center;
+        color:#ccc;
+
+    }
+}
+.doctorke{
+    width:100%;
+    height:1.62rem;
+    margin-top:.1rem;
+    background-color:white;
+   .doctor-up,.doctor-down{
+        height:.81rem;
+        display:flex;
+        dl{
+            flex:1;
+            border-right:1px solid #ccc;
+            border-bottom:1px solid #ccc;
+            dt{
+                position:relative;
+                height:.46rem;
+                img{
+                    position:absolute;
+                    height:.345rem;
+                    width:.345rem;
+                    top:0;
+                    left:0;
+                    right:0;
+                    bottom:0;
+                    margin:auto;
+                }
+            }
+            dd{
+                line-height:.35rem;
+                text-align:center;
+            }
+        }
+   }
+
+}
+.tabmessage{
+    height:1.1rem;
+    margin-top:.1rem;
+    .tab-nav{
+        height:.36rem;
+        line-height:.36rem;
+        background-color:white;
+        position:relative;
+        border-bottom:1px solid #ccc;
+        a{
+            display:block;
+            float:left;
+            padding-left:.1rem;
+            padding-right:.1rem;
+        }
+        img{
+            position:absolute;
+            width:.155rem;
+            height:.165rem;
+            top:.12rem;
+            right:.1rem;
+        }
+    }
+    .tab-content{
+        height:.74rem;
+        background-color:white;
+        span{
+            height:.23rem;
+            line-height:.23rem;
+            padding-left:.1rem;
+            padding-right:.1rem;
+            text-align:center;
+            display:block;
+            margin-top:.1rem;
+            margin-left:.1rem;
+            float:left;
+            background-color:#f4f9ff;
+            color:#a9b9c6;
+            border-radius:.115rem;
+        }
+    }
+}
+.prom{
+    height:.77rem;
+    margin-top:.1rem;
+    background-color:white;
+    position:relative;
+    img{
+        width:.725rem;
+        height:.63rem;
+        position:absolute;
+        right:.15rem;
+        top:.07rem;
+    }
+    h3{
+        font-size: .15rem;
+        padding-left:.07rem;
+        padding-top:.25rem; 
+    }
+    p{
+        padding-left:.07rem;
+        color:#c1c1c1;
+    }
+}
+.doctorspeak{
+    margin-top:.1rem;
+    background-color:#fff;
+    .doc-speaks{
+        height:.68rem;
+        line-height:.68rem;
+        padding-left:.1rem;
+    }
+    .doc{
+        dl{
+            height:.83rem;
+            border-bottom:1px solid #ccc;
+            display:flex;
+            dt{
+                position:relative;
+                flex:3;
+                img{
+                    position:absolute;
+                    width:.695rem;
+                    height:auto;
+                    top:0;
+                    left:0;
+                    right:0;
+                    bottom:0;
+                    margin:auto;
+                }
+            }
+            dd{
+                flex:7;
+                h3{
+                    font-size:.15rem;
+                    padding-top:.1rem;
+                }
+                p{
+                    font-size:.1rem;
+                    line-height:.3rem;
+                }
+            }
+        }
+    }
+}
+.footer {
+    height: 0.37rem;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    display: flex;
+    a{
+        flex:1;
+        img{
+            width:.16rem;
+            height:.16rem;
+        }
+    }
+    .active{
+        color:#728fd1;
+    }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,267 @@
+/* line 1, style.scss */
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/* line 11, style.scss */
+.header {
+  font-size: 0.18rem;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  display: flex; }
+
+/* line 21, style.scss */
+.header .back {
+  position: absolute;
+  left: 0.1rem;
+  color: #37bc9b;
+  font-size: 0.16rem;
+  width: .165rem;
+  height: .165rem;
+  top: .1rem; }
+
+/* line 30, style.scss */
+.header h3 {
+  flex: 1;
+  font-size: .16rem;
+  font-weight: normal; }
+
+/* line 36, style.scss */
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background-color: #f8f8f8; }
+
+/* line 41, style.scss */
+.search {
+  height: .36rem;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  background-color: white; }
+  /* line 46, style.scss */
+  .search img {
+    width: .16rem;
+    height: .16rem;
+    position: absolute;
+    top: .1rem;
+    left: .1rem;
+    z-index: 1; }
+  /* line 54, style.scss */
+  .search input {
+    width: 98%;
+    height: .24rem;
+    position: absolute;
+    outline: none;
+    background-color: #f3f3f3;
+    border-radius: .12rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    text-indent: .28rem; }
+
+/* line 70, style.scss */
+.doctor {
+  height: .4rem;
+  line-height: .4rem;
+  position: relative;
+  display: flex;
+  background-color: white;
+  margin-top: .1rem;
+  border-bottom: 1px solid #ccc; }
+  /* line 78, style.scss */
+  .doctor img {
+    position: absolute; }
+  /* line 81, style.scss */
+  .doctor .xin {
+    width: .23rem;
+    height: .23rem;
+    top: .1rem;
+    left: .07rem; }
+  /* line 87, style.scss */
+  .doctor .fanhui {
+    width: .16rem;
+    height: .16rem;
+    right: .07rem;
+    top: .12rem; }
+  /* line 93, style.scss */
+  .doctor span {
+    flex: 1;
+    text-align: center;
+    font-size: .16rem; }
+  /* line 98, style.scss */
+  .doctor small {
+    flex: 1;
+    text-align: center;
+    color: #ccc; }
+
+/* line 105, style.scss */
+.doctorke {
+  width: 100%;
+  height: 1.62rem;
+  margin-top: .1rem;
+  background-color: white; }
+  /* line 110, style.scss */
+  .doctorke .doctor-up, .doctorke .doctor-down {
+    height: .81rem;
+    display: flex; }
+    /* line 113, style.scss */
+    .doctorke .doctor-up dl, .doctorke .doctor-down dl {
+      flex: 1;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc; }
+      /* line 117, style.scss */
+      .doctorke .doctor-up dl dt, .doctorke .doctor-down dl dt {
+        position: relative;
+        height: .46rem; }
+        /* line 120, style.scss */
+        .doctorke .doctor-up dl dt img, .doctorke .doctor-down dl dt img {
+          position: absolute;
+          height: .345rem;
+          width: .345rem;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto; }
+      /* line 131, style.scss */
+      .doctorke .doctor-up dl dd, .doctorke .doctor-down dl dd {
+        line-height: .35rem;
+        text-align: center; }
+
+/* line 139, style.scss */
+.tabmessage {
+  height: 1.1rem;
+  margin-top: .1rem; }
+  /* line 142, style.scss */
+  .tabmessage .tab-nav {
+    height: .36rem;
+    line-height: .36rem;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid #ccc; }
+    /* line 148, style.scss */
+    .tabmessage .tab-nav a {
+      display: block;
+      float: left;
+      padding-left: .1rem;
+      padding-right: .1rem; }
+    /* line 154, style.scss */
+    .tabmessage .tab-nav img {
+      position: absolute;
+      width: .155rem;
+      height: .165rem;
+      top: .12rem;
+      right: .1rem; }
+  /* line 162, style.scss */
+  .tabmessage .tab-content {
+    height: .74rem;
+    background-color: white; }
+    /* line 165, style.scss */
+    .tabmessage .tab-content span {
+      height: .23rem;
+      line-height: .23rem;
+      padding-left: .1rem;
+      padding-right: .1rem;
+      text-align: center;
+      display: block;
+      margin-top: .1rem;
+      margin-left: .1rem;
+      float: left;
+      background-color: #f4f9ff;
+      color: #a9b9c6;
+      border-radius: .115rem; }
+
+/* line 181, style.scss */
+.prom {
+  height: .77rem;
+  margin-top: .1rem;
+  background-color: white;
+  position: relative; }
+  /* line 186, style.scss */
+  .prom img {
+    width: .725rem;
+    height: .63rem;
+    position: absolute;
+    right: .15rem;
+    top: .07rem; }
+  /* line 193, style.scss */
+  .prom h3 {
+    font-size: .15rem;
+    padding-left: .07rem;
+    padding-top: .25rem; }
+  /* line 198, style.scss */
+  .prom p {
+    padding-left: .07rem;
+    color: #c1c1c1; }
+
+/* line 203, style.scss */
+.doctorspeak {
+  margin-top: .1rem;
+  background-color: #fff; }
+  /* line 206, style.scss */
+  .doctorspeak .doc-speaks {
+    height: .68rem;
+    line-height: .68rem;
+    padding-left: .1rem; }
+  /* line 212, style.scss */
+  .doctorspeak .doc dl {
+    height: .83rem;
+    border-bottom: 1px solid #ccc;
+    display: flex; }
+    /* line 216, style.scss */
+    .doctorspeak .doc dl dt {
+      position: relative;
+      flex: 3; }
+      /* line 219, style.scss */
+      .doctorspeak .doc dl dt img {
+        position: absolute;
+        width: .695rem;
+        height: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; }
+    /* line 230, style.scss */
+    .doctorspeak .doc dl dd {
+      flex: 7; }
+      /* line 232, style.scss */
+      .doctorspeak .doc dl dd h3 {
+        font-size: .15rem;
+        padding-top: .1rem; }
+      /* line 236, style.scss */
+      .doctorspeak .doc dl dd p {
+        font-size: .1rem;
+        line-height: .3rem; }
+
+/* line 244, style.scss */
+.footer {
+  height: 0.37rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  display: flex; }
+  /* line 249, style.scss */
+  .footer a {
+    flex: 1; }
+    /* line 251, style.scss */
+    .footer a img {
+      width: .16rem;
+      height: .16rem; }
+  /* line 256, style.scss */
+  .footer .active {
+    color: #728fd1; }
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
